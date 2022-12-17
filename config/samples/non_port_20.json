@@ -1,8 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/fclairamb/ftpserver/main/config-schema.json",
-    "logging": {
-        "file": "ftpserver.log"
-    },
+    "active_transfer_port_non_20": true,
     "accesses": [
         {
             "user": "test",

@@ -11,6 +11,14 @@
             "mode": "auto",
             "program": "${workspaceFolder}",
             "args": ["-conf", "${workspaceFolder}/config/samples/log_file.json"]
+        },
+        {
+            "name": "Launch (non_port_20)",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}",
+            "args": ["-conf", "${workspaceFolder}/config/samples/non_port_20.json"]
         }
     ]
 }
